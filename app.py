@@ -109,8 +109,7 @@ with st.sidebar:
 if st.session_state.authenticated:
     st.title("📊 Customer Feedback Analyzer")
     st.caption("Strategic Enterprise Solution | Academic Sentiment & SERVQUAL Integration Matrix")
-    st.hr()
-
+    st.divider()  # <-- FIXED
     # Application Navigation Tab Architecture
     tab1, tab2, tab3 = st.tabs([
         "📥 Data Ingestion & Configuration", 
