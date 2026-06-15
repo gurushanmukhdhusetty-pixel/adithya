@@ -33,8 +33,7 @@ st.markdown("""
             font-size: 1.1rem;
         }
     </style>
-""", unsafe_allow_allow_html=True)
-
+""", unsafe_allow_html=True)
 # ==========================================
 # 2. STATE & LOCAL ANALYTICS ENGINE
 # ==========================================
